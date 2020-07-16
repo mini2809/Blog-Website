@@ -4,4 +4,4 @@ I have used HTML5 and CSS3
 U can simply clone the repo and view index.html on Browser
 
 Live Preview Here:
-https://github.com/mini2809/Blog-Website.git
+https://mini2809.github.io/Blog-Website/
