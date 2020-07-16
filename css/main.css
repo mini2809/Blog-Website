@@ -1,0 +1,54 @@
+ @import "header.css";
+ @import "content.css";
+ @import "footer.css";
+  
+  .container
+  {
+    
+    display:  grid;
+    grid-template-rows:   auto auto auto auto;
+    grid-template-columns:  auto ;
+    grid-template-areas:  "hd"
+                          "mhd"
+                          "content"
+                          "footer";
+}
+
+/*responsive*/
+  @media screen and (max-width:900px)
+  {
+    #h_container
+    {
+      justify-content:  space-around;
+      font-size:  20px;
+
+    }
+    div.box1>button
+    {
+      font-size: 13px;
+    }
+    #h_container>div.box2
+    {
+      padding-left: 100px;
+      display:  block;
+      font-size:  30px;
+    }
+    #h_container>div.box1
+    {
+      order:  2;
+      display:  block;
+    }
+    #h_container>div.box3
+    {
+      display:  none;
+    }
+    #micro_header>button
+    {
+      display:  block;
+      margin: auto;
+      font-size:  13px;
+    } 
+    #micro_header{
+      margin: auto;
+    }
+  }

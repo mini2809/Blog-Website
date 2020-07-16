@@ -1,0 +1,94 @@
+ #header
+  {
+   grid-area: hd;
+  }
+
+  #h_container
+  {
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content:  space-between;
+    padding:  10px;
+  }
+
+  #micro_header
+  {
+    grid-area:  mhd;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-left:  150px;
+  }
+
+  #logo_style
+  {
+  color: black;
+  }
+
+   .box1
+  {
+    justify-self: flex-start;
+  }
+
+  .box2
+  {
+    padding:  10px;
+    font-size:  25px;
+    font-weight:  bold;
+    margin-right: 90px;
+  }
+
+  .box3
+  {
+    padding:  10px;
+    justify-self: flex-end;
+  }
+
+  .button 
+  {
+    color: grey;
+    padding-left: 5px;
+    padding-right:  5px;
+    text-align:   center;
+    font-weight:  bold;
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size:  14px;
+    background-color: white;
+    border: none;
+  }
+
+  .button:hover
+  {
+    color:  black;
+  }
+
+  .button:hover 
+  {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  } 
+
+  #posts_link
+  {
+    text-decoration:  none;
+  }
+
+   .button_a
+  {
+    color:  red;
+    margin-right: 20px;
+  }
+
+  .button_b
+  {
+    color:  grey;
+    margin-right: 20px;
+  }
+
+  .button_c
+  {
+    color:  lightblue;
+    margin-right: 20px;
+  }
