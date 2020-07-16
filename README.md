@@ -3,8 +3,5 @@
 I have used HTML5 and CSS3
 U can simply clone the repo and view index.html on Browser
 
-
-```
-Live-Preview here:
+Live Preview Here:
 https://github.com/mini2809/Blog-Website.git
-````
